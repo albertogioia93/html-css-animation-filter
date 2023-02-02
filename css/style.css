@@ -2,12 +2,19 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 5s;
 }
+
+.ex-1-square:hover {
+    background: red;
+}
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
 .ex-3-square {
     width: 100px;
     height: 100px;
