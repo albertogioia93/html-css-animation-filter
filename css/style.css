@@ -87,6 +87,13 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: saturate(1) invert(1);
+    border-radius: 20px;
+    width: 200px;
 }
 
 
