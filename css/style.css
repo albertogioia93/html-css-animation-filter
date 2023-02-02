@@ -99,6 +99,16 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: giroinfinito;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giroinfinto {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
 }
 .ex-11-icon {
     font-size: 60px;
