@@ -67,6 +67,14 @@
     filter: grayscale(1);
 }
 
+.ex-7-img {
+    transition: 5s;
+}
+
+.ex-7-img:hover {
+    filter: saturate(1) invert(1);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
