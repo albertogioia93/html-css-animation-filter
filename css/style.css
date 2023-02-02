@@ -63,6 +63,10 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
