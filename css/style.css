@@ -102,11 +102,12 @@
     animation-name: giroinfinito;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes giroinfinto {
+@keyframes giroinfinito {
     0% {
-        transform: rotate(0)
+        transform: rotate(1turn);
     }
 }
 .ex-11-icon {
