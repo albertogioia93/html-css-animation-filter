@@ -75,10 +75,21 @@
     filter: saturate(1) invert(1);
 }
 
+.ex-8-img {
+    transition: 5s;
+}
+
+.ex-8-img:hover {
+    filter: saturate(1) invert(1);
+    border-radius: 20px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+
 .ex-10-icon {
     font-size: 60px;
 }
